@@ -3,6 +3,8 @@
  */
 
 export * from "./Contacts/NavigatorContract";
+export * from "./Functions/createStackNavigationOptions";
+export * from "./Functions/getDefaultNavigationOptions";
 export * from "./Services/Navigator";
 export * from "./Types/DecomposedRouteType";
 export * from "./Types/NavigationContainerComponentType";
