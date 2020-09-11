@@ -1,6 +1,6 @@
 {
     "name": "@vladbasin/rn-navigation",
-    "version": "1.1.3",
+    "version": "1.1.5",
     "description": "Navigation library for React Native",
     "main": "./dist/index.js",
     "types": "./dist/index.d.ts",
@@ -9,6 +9,10 @@
     },
     "author": "Vlad Basin",
     "license": "GPL-3.0-only",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/vladbasin/rn-navigation.git"
+    },
     "devDependencies": {
         "@types/react-native": "^0.63.2",
         "barrelsby": "^2.2.0",
@@ -21,7 +25,9 @@
         "react-navigation-stack": "^2.8.2",
         "react-navigation-tabs": "^2.9.0",
         "react": "^16.13.1",
-        "react-native": "^0.63.2"
+        "react-native": "^0.63.2",
+        "react-native-reanimated": "^1.13.0",
+        "react-native-screens": "^2.10.1"
     },
     "peerDependencies": {
         "@react-native-community/masked-view": "^0.1.10",
@@ -32,6 +38,8 @@
         "react-navigation": "^4.4.0",
         "react-navigation-hooks": "^1.1.0",
         "react-navigation-stack": "^2.8.2",
-        "react-navigation-tabs": "^2.9.0"
+        "react-navigation-tabs": "^2.9.0",
+        "react-native-reanimated": "^1.13.0",
+        "react-native-screens": "^2.10.1"
     }
 }
